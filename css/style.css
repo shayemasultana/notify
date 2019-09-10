@@ -1,0 +1,461 @@
+/*Name:Shayema Sultana
+Country:Bangladesh
+Email:shayema141106@gmail.com
+*/
+/*
+1.Global CSS Section
+2.Header Section
+3.Background Section
+4.Editable Section 
+5.Get Notified Section
+6.Say hi Section
+	6.1-Social Media Button section
+7.Footer Section	
+*/
+
+/*-------- Global CSS Start --------*/
+body {    
+    font-family: 'Roboto Slab', sans-serif;    
+}
+
+header {
+    padding: 10px 0px 0px;
+}
+
+ul li {
+    list-style: none;
+    display: inline;
+}
+
+section {
+    padding: 60px 0px 0px 0px;
+}
+
+p {
+    font-family: 'Roboto Slab', serif;
+}
+
+.btn.focus,
+.btn:focus {
+    box-shadow: none;
+}
+
+.form-control:focus {
+    border-color: transparent;
+    box-shadow: none;
+}
+
+/* ----------- Global CSS End ---------- */
+
+/* ----------- Header Section Start ---------- */
+
+.line {
+    background: url(../images/line.png) no-repeat;
+    display: block;
+    background-size: cover;
+    background-position: center;
+}
+
+/* ----------- Header Section End ------------ */
+
+/* ----------- Background Section Start ---------- */
+.bg-img {
+    background: url(../images/bg-img.png) no-repeat;
+    display: block;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo img {
+    -webkit-transition: 0.9s ease-in-out;
+    -moz-transition: 0.9s ease-in-out;
+    -ms-transition: 0.9s ease-in-out;
+    -o-transition: 0.9s ease-in-out;
+    transition: 0.9s ease-in-out;
+}
+
+.logo img:hover {
+    cursor: pointer;
+}
+
+.bg-img p {
+    padding: 20px 0px;
+    color: #fff;
+    font-size: 21px;
+}
+
+.bg-img ul {
+    padding-left: 0px;
+}
+
+.bg-img i {
+    width: 50px;
+    height: 50px;
+    color: #b09d93;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, .3);
+    font-size: 25px;
+    padding: 12px;
+    text-align: center;
+    margin-right: 10px;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+    -moz-transition: width 2s, height 2s, -moz-transform 2s;
+    -ms-transition: width 2s, height 2s, -ms-transform 2s;
+    -o-transition: width 2s, height 2s, -o-transform 2s;
+    transition: width 2s, height 2s, transform 2s;
+    cursor: pointer;
+}
+
+.bg-img i:hover {
+    background-color: #2ecc71;
+    color: #fff;
+    -webkit-transform: rotate(90deg) scale(1.2);
+    /* Chrome 4+, Op 15+, Saf 3.1, iOS Saf 3.2+ */
+    -moz-transform: rotate(90deg) scale(1.2);
+    /* Fx 3.5-15 */
+    -ms-transform: rotate(90deg) scale(1.2);
+    /* IE 9 */
+    -o-transform: rotate(90deg) scale(1.2);
+    /* Op 10.5-12 */
+    transform: rotate(90deg) scale(1.2);
+    /* Fx 16+, IE 10+ */
+}
+
+/*.box-transition{
+  background: #2db34a; 
+  border-radius: 50%;
+  cursor: pointer;  
+  text-align: center;
+  transition-property: background, border-radius;
+  transition-duration: .2s, 1s;
+  transition-timing-function: linear, ease-in; 
+}
+.box-transition:hover {
+  background: #ff7b29;
+  border-radius: 6px;
+}*/
+.box {
+    background: #2db34a;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 95px;
+    line-height: 95px;
+    text-align: center;
+    transition-property: background, border-radius;
+    transition-duration: .2s, 1s;
+    transition-timing-function: linear, ease-in;
+    width: 95px;
+}
+
+.box:hover {
+    background: #ff7b29;
+    border-radius: 6px;
+}
+
+.logo {
+    padding: 100px 0px;
+    padding-left: 100px;
+}
+
+/* ----------- Background Section End ---------- */
+
+/* ----------- Editable Section Start ---------- */
+.edit {
+    padding-bottom: 50px;
+}
+
+.edit i {
+    width: 100px;
+    height: 100px;
+    background-color: #2ecc71;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 60px;
+    text-align: center;
+    padding: 2px;
+}
+
+.edit i:hover {
+    color: #fff;
+    background-color: #269e59;
+}
+
+.edit h5 {
+    font-family: 'Raleway', sans-serif;
+    padding: 20px 0px 10px;
+}
+
+.edit p {
+    color: #949494;
+    font-weight: 300;
+    padding-top: 0px;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+/* ----------- Editable Section End ------------ */
+
+/* ----------- Get Notified Section Start ------------ */
+.get-notified {
+    background-color: #e3e3e3;
+}
+
+.get-notified h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+}
+
+.get-notified p {
+    color: #949494;
+    font-weight: 300;
+    padding: 20px 0px;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.form-group {
+    padding-bottom: 8%;
+}
+
+.input-group {
+    width: 80%;
+}
+
+.form-control {
+    font-size: 18px;
+    font-weight: 300;
+    border-radius: 20px;
+    padding-left: 26px;
+    background-color: #faf7f7;
+    -webkit-transition: 0.7s ease-in;
+    -moz-transition: 0.7s ease-in;
+    -ms-transition: 0.7s ease-in;
+    -o-transition: 0.7s ease-in;
+    transition: 0.7s ease-in;
+    cursor: pointer;
+}
+
+.form-control:hover {
+    border-color: #fff;
+    background-color: #fff;
+}
+
+.notify {
+    font-weight: bold;
+    font-size: 22px;
+    width: 141px;
+    height: 55px;
+    background-color: #2ecc71;
+    color: #fff;
+    border-color: #2ecc71;
+    border-radius: 20px;
+    -webkit-transition: 0.9s ease-in-out;
+    -moz-transition: 0.9s ease-in-out;
+    -ms-transition: 0.9s ease-in-out;
+    -o-transition: 0.9s ease-in-out;
+    transition: 0.9s ease-in-out;
+    cursor: pointer;
+}
+
+.notify:hover {
+    background-color: #96deb4;
+    color: #fff;
+}
+
+.video {
+    padding-bottom: 50px;
+}
+
+/* ----------- Get Notified Section End ------------ */
+
+/* ----------- Say Hi Section Start ------------ */
+.say-hi {
+    padding-bottom: 40px;
+}
+
+.say-hi p {
+    color: #848484;
+    font-size: 17px;
+    font-weight: 300;
+    width: 90%;
+    padding-left: 10%;
+}
+
+.say-hi h5 {
+    font-size: 18px;
+    padding: 10px 0px 20px;
+    font-weight: bold;
+}
+
+/*.say-hi img:hover{
+	cursor: pointer;
+	background-color: #2ecc71;			
+}*/
+.item {
+    background-color: #2ecc71;
+}
+
+.item img {
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.item:hover img {
+    opacity: 0.3;
+}
+
+/*.opacity:hover{
+	cursor: pointer;
+	background-color: #2ecc71;
+}*/
+.say-hi h4 {
+    font-size: 24px;
+    font-weight: normal;
+    padding: 20px 0px 20px;
+}
+
+.last {
+    font-size: 16px;
+    color: #848484;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+/* ----------Social Media Button section Start ---------- */
+.social-media {
+    padding: 0px 0px 0px 20px;
+}
+
+.social-media ul {
+    width: 90%;
+}
+
+.social-media li {
+    margin-right: 5px;
+}
+
+.social-media i {
+    font-size: 22px;
+    background-color: #d4d4d4;
+    width: 40px;
+    height: 40px;
+    padding: 8px 8px;
+    border-radius: 50%;
+    color: #fff;
+    border-bottom: 3px solid #f8ac13;
+    text-align: center !important;
+    border-top: 2px solid #2df30f;
+}
+
+.fa-twitter {
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.fa-twitter:hover {
+    background-color: #01a7fd;
+}
+
+.fa-facebook {
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.fa-facebook:hover {
+    background-color: #3B579D;
+}
+
+.fa-pinterest {
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.fa-pinterest:hover {
+    background-color: #E60023;
+}
+
+.fa-google-plus {
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.fa-google-plus:hover {
+    background-color: #DE5E53;
+}
+
+.fa-linkedin {
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.fa-linkedin:hover {
+    background-color: #555fe2;
+}
+
+.fa-youtube {
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.fa-youtube:hover {
+    background-color: #fc020e;
+}
+
+footer {
+    background-color: #e3e3e3;
+    padding: 50px 0px;
+}
+
+footer ul {
+    margin-bottom: 0px;
+}
+
+footer a {
+    font-weight: 300;
+    color: #848484;
+    margin-right: 35px;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #2ecc71;
+}
+
+/* ----------Social Media Button section End ---------- */
+/* ----------- Say hi Section End ------------ *
+
